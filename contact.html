@@ -1,0 +1,68 @@
+
+    
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact and Location</title>
+  <link rel="stylesheet" href="../styles/Hotel.css">
+  <!-- Include Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+  <style>
+  
+  </style>
+</head>
+
+<body style=" background-color:#dda0dd;"">
+  <header>
+    <h1> Pearl of Africa Luxury Hotel</h1>
+    <p>For your comfort</p>
+    <nav>
+      <ul>
+        <li><button><a href="index.html">Home</a></button></li>
+        <li><button><a href="image.html">Rooms</a></button></li>
+        <li><button><a href="contact.html">Contact US</a></button></li>
+        <li><button><a href="book.html">Book Now</a></button></li>
+      </ul>
+    </nav>
+  </header>
+  <div style="text-align: center">
+  <h1>Contact and Location</h1>
+</div>
+  <!-- Contact Information -->
+  <div class="contact1-info">
+    <h2>Contact Information</h2>
+    <p><strong>Address:</strong> Pearl of Africa Hotel, kampala, Uganda</p>
+    <p><strong>Phone:</strong> +256042567890</p>
+    <p><strong>Email:</strong> pearl of AfricHotel@gmail.com.ug</p>
+  </div>
+  <div class="gather">
+  <!-- Map Section -->
+<div class="mapping">
+<div id="map">
+ <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.018325900533!2d32.57120954355304!3d0.3238648545735602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb8f92703213%3A0xabaec8831bda346c!2sThe%20Pearl%20Of%20Africa%20Restaurant!5e0!3m2!1sen!2sug!4v1711608571089!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+ </div>
+  <!-- contact-form -->
+  <div class="contact-form">
+    <h2>Contact Form</h2>
+    <form action="submit.php" method="post">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id=" Client message" name="message" rows="4" required></textarea>
+        <br>
+        <button type="submit">Book Now</button>
+      </div>
+    </div>
+
+</html>
+</body>
+</html>

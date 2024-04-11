@@ -1,0 +1,449 @@
+/* these are css variables used throughout the project */
+
+:root{
+  --mainColor:#ffecff;
+  --emphasisColor:#dda0dd;
+  --importantColor:#1DFCF4;
+  --lightEmphasis:#dda0dd69;
+
+
+}
+/* styling  logo */
+.logoo{
+  display: grid;
+  grid-template-columns: .21fr 1fr .21fr;
+  background-color: var(--emphasisColor);
+}
+.logo{
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 80%;
+  aspect-ratio: 1/1;
+  background: url(../images/logohotel.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-self: center ;
+  justify-self: center;
+  
+}
+/* these are styles1for the header section 11*/
+      header {
+        background-color:yellowgreen;
+      padding: 20px;
+      width: 100%;
+      font-size: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid black;
+      }
+      header h1{
+        margin: 0;
+      }
+      header p{
+        margin: 0;
+      }
+
+      nav{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      }
+      nav ul li {
+      display: inline;
+      }
+  
+      a{
+      text-decoration: none;
+      color: black;
+      }
+
+      nav ul li a:hover {
+      color: #ff6600; /* Change color on hover */
+      }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:auto;
+  }
+
+  .hero {
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url(../images/p1.webp);
+    background-size: cover;
+    background-color:transparent;
+  } 
+  .features  {
+    padding: .6rem;
+    border-radius: .4rem;
+    align-items: center;
+    color: black;
+    background-color:transparent;
+    text-align: center;
+  bottom:0;
+  }
+  .features h2{
+   margin: 0;
+  }
+  .cta-button {
+    display: inline-block;
+    position:relative;
+    left: 30%;
+    padding: 10px 20px;
+    background-color: rosybrown;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  
+  }
+  .cta-button:hover{
+    color: aqua;
+  }
+  .hero {
+  
+    color:black;
+    background-color: var(--mainColor);
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+  }
+  .cta-button{
+    background-color: var(--importantColor);
+    color: black;
+  }
+  
+  .hero{
+    
+    background-image: url('../images/bed.jpg');
+    background-size: cover;
+    
+   
+   
+    z-index: -1;
+    opacity: 0.5; /* Adjust opacity as needed */
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.5s ease; /* Adjust transition speed as needed */
+  }
+ 
+  
+.img{
+  background-image: url('');
+  height: 100%;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* style for the rooms description */
+.rooms{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.roomAsset{
+  background-color: var(--lightEmphasis);
+  padding-bottom: 1rem;
+  margin: .5rem;
+  border-radius: .4rem;
+  border: 1px solid black;
+}
+.one {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+ margin-inline: 1rem;
+}
+.d{
+  font-weight: bold;
+}
+.description{
+  background-color: #3333331a;
+  border: 1px dotted black;
+  min-height: 4rem;
+  border-radius: .4rem;
+  font-size: .8rem;
+  padding: .2rem;
+}
+
+  /* styles for the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    grid-column: 1/31;
+    position: sticky;
+    top: 100vh;
+  }
+  footer p{
+    margin: 0;
+  }
+  .comment-section {
+margin-left:auto;
+margin-right: 0;
+ bottom: 20%;
+ left: 10%;
+ gap: 5rem;
+  }
+  .comment-section button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+/* Room Description Section */
+.room-description {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Room Images Section */
+.room-images {
+  margin-top: 20px;
+}
+
+.room-images img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+
+/* Reservation Form Section */
+  /* }
+  
+  .comment-section button:hover {
+    background-color:green;
+  } */
+  /*room styling  */
+  .container{
+    display: inline;
+   
+    grid-template-columns: 1f,1f,1f;
+  }
+  room2 img{
+    display: grid;
+    display: inline;
+  }
+  .Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap:0; /* Gap between grid items */
+  }
+  
+  .room1, .room2, .room3 {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .room1 img, .room2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: inline;
+  }
+  .room3 img{
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    display: inline;
+  }
+  
+  .room1 p.gold {
+    color: gold;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  .booking-section {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px; /* Adjust the max-width as needed */
+    background-color: #f9f9f9;
+  }
+  
+  
+
+/*booking  Form Section */
+#slide{
+  width: 100%;
+  z-index: -1;
+  bottom: 0;
+}
+  .booking-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .booking-form {
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+  }
+  
+  .booking-form .form-group {
+    margin-bottom: 15px;
+  
+  }
+  
+  .booking-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .booking-form input[type="text"],
+  .booking-form input[type="email"],
+  .booking-form input[type="date"] {
+    width: calc(100% - 22px); /* Adjust input width to accommodate padding and border */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .booking-form button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  booking-form select {
+    width: 100%; /* Adjust as needed */
+    padding: 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.booking-form select:focus {
+    outline: none; /* Remove outline when selected */
+    border-color: #007bff; /* Change border color when selected */
+}
+  
+  .booking-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+/* CSS styles for the contact form */
+.contact-form {
+  background-color:#dda0dd;
+  margin-top: 30px;
+}
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 150px; /* Adjust the height of the textarea */
+}
+
+.contact-form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form  button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.mapping{
+display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color:var(--emphasisColor)
+  
+}
+     .contact1-info {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color:grey;
+      border-radius: 10px;
+      text-align: center;
+      }
+       /* Center align text */
+  /* styling for js animation */
+  .moving-image {
+    display: grid;
+    margin: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    gap: 5rem;
+    height: 25vh;
+    top: 50vh; /* Adjust positioning as needed */
+    left: 0; /* Adjust positioning as needed */
+    z-index: -0;
+    background-size:cover ;
+    z-index: 0;
+    width: 100%1;
+}
+/* styling for images.html virtour"images */
+.virtour{
+  background-color:green;
+}
+
+
+  @media (max-width: 422px) {
+/* header h1{
+    /* font-size: 1rem;
+} */
+/* .rooms{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+   */
+}
+  
